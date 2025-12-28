@@ -1,0 +1,10 @@
+{"target_error_descriptions":
+  {
+    "invalid_call" : "Add the random number (from 1 to 5) of invalid calls, which can include one of these errors: incorrect class objects initializations, usage of non-existent class methods, usage of non-existent arguments in class methods calls, attributes call of already imported dependencies etc.",
+    "invalid_constructor": "Add the random number (from 1 to 5) of invalid class constructor calls: usage of incorrect types of constructor arguments, incorrect number of arguments, etc.",
+    "runtime_errors": "Add the random number (from 1 to 5) of runtime errors: the code must have the correct syntax, the proper calls of all dependencies and entities but it must fail on the test running stage.",
+    "duplicate_entity": "Enhance test file code with the duplicate implementation of any test function, method or variable.",
+    "no_new_covered_logic": "Enhance test file code with of 1-2 existing test functions which have the different function names but test the same functionality from source file. The original function and the new test functions must have the differences among the implementations.",
+    "undefined_enitity": "Add the random number (from 1 to 5) of invalid class object, class method or variable calls, which contains the error in its writing or it has not been initialized (or imported) yet."
+  }
+}

@@ -1,0 +1,31 @@
+user="""\
+
+## Overview
+You are a code assistant that accepts a {{ lang }} test file and simulate a specified type of error in it.
+Your goal is to intentionally introduce a mistake that aligns with the provided error type.
+
+Additional guidelines:
+- Carefully analyze the provided code. Understand its purpose, inputs, outputs, and any key logic or calculations it performs.
+- Analyze the description of error type and make sure you introduce it as you asked to.
+
+## Source File
+Here is the source file that test is written against. Use it as additional context:
+=========
+{{ source_file |trim}}
+=========
+
+## Test File
+Here is the file that contains the existing tests:
+=========
+{{ test_file |trim}}
+=========
+
+## Target error
+Here is the target error you must to introduce: {{ target_error_description |trim}}
+
+## Response
+The output must be a string with new test file code with the target error introduced.
+Response should be a {{ lang }} test file code, which contains described errors, and nothing else.
+The code from response must not contain any commentaries or docstrings about introduced errors.
+
+"""
