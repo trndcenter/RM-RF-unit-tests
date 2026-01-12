@@ -1,4 +1,6 @@
-# RM -RF
+# RM -RF: Official Repo for SANER 2026 Paper "RM -RF: Reward Model for Run-Free Unit Test Evaluation" 
+
+
 
 This repository contains the data used in the experiments:
 
